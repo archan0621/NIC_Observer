@@ -1,4 +1,4 @@
-# ServerSpell
+# NIC_Observer
 
 Simple script to monitoring status of network interfaces in linux
 
