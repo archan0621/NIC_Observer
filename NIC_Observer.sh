@@ -1,7 +1,9 @@
 #!/bin/sh
 
+#Simple Network Interface Monitoring script developed by ParkJongHa 
+
 # Get a list of all network interfaces starting with "eth"
-interfaces=$(ifconfig -a | grep -oP "^(eth[0-9]+)")
+interfaces=$(ifconfig -a | grep -oP "^(eth|br[0-9]+)")
 
 # Loop through each interface and check its link status
 while true; do
